@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/Prn-Ice/nestee/compare/v0.0.2...v0.0.3) (2022-06-24)
+
+
+### Features
+
+* **auth:** working login and signup with jwt's ([c66dd66](https://github.com/Prn-Ice/nestee/commit/c66dd66a43169cfad6522b68c6387f65a0d900e0))
+* **config:** add prisma config ([ce6a169](https://github.com/Prn-Ice/nestee/commit/ce6a169d88cb3f58a2e348f064dc043efd136476))
+* enable validation on data objects ([7d83aad](https://github.com/Prn-Ice/nestee/commit/7d83aad8c299b46c92ea1f4f46a9186a8866008c))
+* **prisma:** add relations between user and bookmark ([c30bb53](https://github.com/Prn-Ice/nestee/commit/c30bb53861f2bbbb50fecab08f516649ecf6d732))
+
 ### 0.0.2 (2022-06-24)
 
 
