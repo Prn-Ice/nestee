@@ -1,5 +1,5 @@
-export class Constants {
-  public static readonly DATABASE_URL = 'DATABASE_URL';
-  public static readonly JWT = 'jwt';
-  public static readonly JWT_SECRET = 'JWT_SECRET';
+export enum Constants {
+  DATABASE_URL = 'DATABASE_URL',
+  JWT = 'jwt',
+  JWT_SECRET = 'JWT_SECRET',
 }
