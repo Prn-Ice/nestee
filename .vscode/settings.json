@@ -4,6 +4,7 @@
         "Fastify",
         "nesr",
         "nestee",
+        "pactum",
         "pino",
         "pinojs"
     ]
