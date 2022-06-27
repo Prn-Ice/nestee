@@ -2,16 +2,17 @@ import { join } from 'path';
 import { DestinationStream } from 'pino';
 import { Options } from 'pino-http';
 import { PrettyOptions } from 'pino-pretty';
+import { Constants } from '../constants';
 
 export function getPinoHttpOptions():
   | Options
   | DestinationStream
   | [opts: Options, stream: DestinationStream] {
-  const logDirectory = join('__dirname', 'Logs');
+  const logDirectory = join(Constants.PROJECT_ROOT_DIR, 'Logs');
   return {
     transport: {
       targets:
-        process.env.NODE_ENV !== 'production'
+        process.env.NODE_ENV !== Constants.PRODUCTION_ENVIRONMENT
           ? [
               {
                 target: join(__dirname, 'pino-pretty-transport'),
