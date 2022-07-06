@@ -12,7 +12,7 @@ export function getPinoHttpOptions():
   return {
     transport: {
       targets:
-        process.env.NODE_ENV !== Constants.PRODUCTION_ENVIRONMENT
+        process.env.NODE_ENV === Constants.DEVELOPMENT_ENVIRONMENT
           ? [
               {
                 target: join(__dirname, 'pino-pretty-transport'),

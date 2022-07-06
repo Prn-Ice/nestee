@@ -4,4 +4,5 @@ export enum Constants {
   JWT_SECRET = 'JWT_SECRET',
   PROJECT_ROOT_DIR = '../../',
   PRODUCTION_ENVIRONMENT = 'production',
+  DEVELOPMENT_ENVIRONMENT = 'development',
 }
